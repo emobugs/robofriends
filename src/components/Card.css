@@ -1,0 +1,23 @@
+#card-container {
+    background-color: rgb(109, 236, 71);
+    display: inline-block;
+    height: 320px;
+    min-width: 220px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+    text-align: center;
+    transition: all 500ms ease-out;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 4px rgba(0, 0, 0, 0.2);
+    backface-visibility: hidden;
+}
+
+#card-container img {
+    width: 200px;
+    height: 200px;
+}
+
+#card-container:hover {
+    transform: scale(1.05) perspective(1px) translateZ(0);
+}
